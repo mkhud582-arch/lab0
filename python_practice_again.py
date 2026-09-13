@@ -1,27 +1,17 @@
-# Python Practice 
+# Exercise 3: String Methods 
 
-balance = 500
-withdrawal = 200
+# Eric is considered offensive 
 
-if withdrawal <= balance: 
-    remaining_balance = balance - withdrawal
-
-print(remaining_balance)
-
-balance = 500
-withdrawal = 200
-
-if withdrawal <= balance: 
-    remaining_balance = balance - withdrawal
-else: 
-    raise NameError("Improper variable name; try again with appropriate variable name")
-print(remaining)
+word_input = input("Enter a word: ")
+split_word = word_input.split() 
+capital_word_input = word_input.upper()
+lowercase_word_input = word_input.lower()
 
 
-score = 85
-if score >= 50:
-    print("Passed") # <-- Indentation is not implemented 
-else:
-    print("Failed")
+if split_word == "Eric":
+    if capital_word_input == True:
+        remove_word = split_word.pop()
+        if lowercase_word_input == True:
+            remove_word = split_word.pop()
 
-import numpy as np 
+            
